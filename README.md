@@ -10,7 +10,7 @@ that directory, then clone the repository as follows:
 
     git clone https://github.com/christiscarborough/gmrender-resurrect-debian/   
     mv gmrender-resurrect-_0.0.7.git.orig.tar.gz ..   
-    tar xvzf ../gmrender gmrender-resurrect-_0.0.7.git.orig.tar.gz  
+    tar xvzf ../gmrender-resurrect_0.0.7.git.orig.tar.gz  
     mv gmrender-resurrect/* .  
     rmdir gmrender-resurrect    
     debuild -uc -us  

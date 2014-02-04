@@ -1,0 +1,11 @@
+./configure
+./Makefile.in
+./aclocal.m4
+./config.h.in
+./INSTALL
+./config/install-sh
+./config/missing
+./config/depcomp
+./data/Makefile.in
+./src/Makefile.in
+./src/git-version.h

@@ -1,0 +1,7 @@
+#!/bin/sh
+debclean
+mv gmrender-resurrect/debian .
+rm -rf gmrender-resurrect/* 
+mv debian gmrender-resurrect
+rm gmrender-resurrect_*-*
+

@@ -15,5 +15,8 @@ mv gmrender-resurrect/* .
 rmdir gmrender-resurrect
 debuild -uc -us
 
-debclean should restore your directory to pristine freshness and you should move
-the tarball back into the directory before attempting a commit.
+To restore your directory to pristine freshness and you should run the following 
+commands then move the tarball back into the directory before attempting a commit.
+
+debclean
+ls - 1 | grep -v ^debian$ | xargs rm

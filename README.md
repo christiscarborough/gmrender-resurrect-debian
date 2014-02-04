@@ -7,7 +7,7 @@ See http://www.coraline.org/non-fiction/raspi-upnp-renderer for further details.
 
 To build, in the base directory:
 
-    tar xvzf gmrender-resurrect_<version>.git.orig.tar.gz
+    ./unpack-source
     cd gmrender-resurrect
     debbuild -uc -us
 

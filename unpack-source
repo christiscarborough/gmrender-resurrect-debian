@@ -1,4 +1,4 @@
 #!/bin/sh
 tar xvzf *.tar.gz
-ln -s debian gmrender-resurrect\
+ln -s ../debian gmrender-resurrect/debian
 

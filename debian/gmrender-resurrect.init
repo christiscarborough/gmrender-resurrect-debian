@@ -35,7 +35,7 @@ SCRIPTNAME=/etc/init.d/$PNAME
 # Depend on lsb-base (>= 3.0-6) to ensure that this file is present.
 . /lib/lsb/init-functions
 
-DAEMON_ARGS="-f \"$UPNP_DEVICE_NAME\" -d -u \"$UPNP_UUID\" $GS_SINK_PARAM $GS_DEVICE_PARAM --gstout-initial-volume-db=$INITIAL_VOLUME_DB"             # Arguments to run the daemon with
+DAEMON_ARGS="-f $UPNP_DEVICE_NAME -d -u $UPNP_UUID $GS_SINK_PARAM $GS_DEVICE_PARAM --gstout-initial-volume-db=$INITIAL_VOLUME_DB"             # Arguments to run the daemon with
 
 #
 # Function that starts the daemon/service

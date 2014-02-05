@@ -1,5 +1,5 @@
 #!/bin/sh
-VERSION=`grep AC_INIT\(gmediarender upstream/configure.ac | awk -F , '{gsub(" ", ""); print $2;}' | sed -e "s/-/_/g"`
+VERSION=`grep AC_INIT\(gmediarender upstream/configure.ac | awk -F , '{gsub(" ", ""); print $2;}' | sed -e "s/-/./g"`
 
 tar --xform="s/^upstream/gmrender-resurrect/" -czf gmrender-resurrect_$VERSION.orig.tar.gz upstream
 tar xzf gmrender-resurrect_$VERSION.orig.tar.gz

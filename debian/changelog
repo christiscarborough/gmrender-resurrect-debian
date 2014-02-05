@@ -1,4 +1,4 @@
-gmrender-resurrect (0.0.7.git-1.1) UNRELEASED; urgency=low
+gmrender-resurrect (0.0.7_git-1.1) UNRELEASED; urgency=low
 
   * local package
   * initial release, pulled from git on 20140204
